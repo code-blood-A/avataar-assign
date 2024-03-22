@@ -1,0 +1,8 @@
+.outsideContainer{
+  position: fixed;
+}
+
+.navbarcontainer{
+  position: fixed;
+  top: 0px;
+}
