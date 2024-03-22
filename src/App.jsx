@@ -16,13 +16,15 @@ import slide_image_5 from './assets/images/img_5.png';
 import slide_image_6 from './assets/images/img_6.png';
 import slide_image_7 from './assets/images/img_7.png';
 import Navbar from './components/Navbar/Navbar';
+import Carousel from './components/Carousel/Carousel';
 
 
 function App() {
   return (
     <div className='outsideContainer'>
     <Navbar className='navbarcontainer'/>
-    <div className="containerr">
+    <Carousel/>
+    {/* <div className="containerr">
       <h1 className="heading">Flower Gallery</h1>
       <Swiper
         effect={'coverflow'}
@@ -77,7 +79,7 @@ function App() {
           <div className="swiper-pagination"></div>
         </div>
       </Swiper>
-    </div>
+    </div> */}
     </div>
   );
 }
